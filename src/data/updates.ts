@@ -13,6 +13,18 @@ export interface UpdateEntry {
 
 export const updates: UpdateEntry[] = [
   {
+    version: "v2.24.0",
+    date: "October 30, 2026",
+    title: "Lab Production Calendar: views, late cases and workload",
+    kind: "feature",
+    items: [
+      { kind: "feature", text: "Switch the lab calendar between Month, Week and Day views; Day view groups deliveries by clinic." },
+      { kind: "feature", text: "Overdue tray lists every late case with how many days late it is." },
+      { kind: "feature", text: "Cases without a due date open in a side panel and can be scheduled in one tap using standard turnaround times." },
+      { kind: "feature", text: "Daily workload meter colours each day green, amber or red against your units-per-day capacity." },
+    ],
+  },
+  {
     version: "v2.23.0",
     date: "October 30, 2026",
     title: "Lab Case Board: holds, tooth chart and batch moves",
